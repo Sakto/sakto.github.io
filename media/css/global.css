@@ -155,7 +155,7 @@ h3
 		background-size: cover;
 		background-position: 50% 75%;
 		background-repeat:no-repeat;
-		background-attachment:fixed;
+		/*background-attachment:fixed;*/
 		position:absolute;
 		top:'0px';
 		width:100%;
