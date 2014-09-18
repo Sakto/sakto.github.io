@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="container" id="mainwrap">
+	<div class="row home" id="main">
+		<div class="col-xs-3">
+			<img src="https://avatars1.githubusercontent.com/u/547076?v=2&s=460" class="img-responsive" alt="Daniel" />
+			<h1>I</h1>
+			am a sidebar!
+			<hr />
+			<ul class="nav nav-stacked">
+				<li>
+					<a href="#">asdasd</a>
+				</li>
+				<li>
+					<a href="#">asdasd</a>
+				</li>
+				<li>
+					<a href="#">Resume</a>
+				</li>
+			</ul>
+		</div>
+		<div class="col-xs-9">
+			{{ content }}
+		</div>
+	</div>
+</div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
