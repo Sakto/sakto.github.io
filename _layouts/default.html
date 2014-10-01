@@ -28,6 +28,9 @@
 		</div>
 		<div class="col-xs-9">
 			{{ content }}
+			{% if page.comments %}
+			{% include comments.html %}
+			{% endif %}
 		</div>
 	</div>
 </div>
