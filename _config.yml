@@ -14,3 +14,5 @@ permalink: pretty
 
 # Build settings
 markdown: kramdown
+sass:
+  sass_dir:  media/sass
