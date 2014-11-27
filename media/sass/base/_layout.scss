@@ -1,114 +1,94 @@
 body
 {
-	background:#EDEDED;
-	font-family:"Open Sans",sans-serif;
+	
 }
-h1,h2,h3,h4,h5,h6
+.row
 {
-	font-weight:300;
-	letter-spacing: -1px;
+	@include row;
+	position:relative;
 }
-h1
+.sidebar
 {
-	font-size:2.4em;
-}
-h2
-{
-	font-size:2.2em;
-}
-h3
-{
-	font-size:1.8em;
-}
-.btn,
-.form-control
-{
-	border-radius:0;
-}
-#topwrap
-{
-	width:100%;
-	background:#333;
-	height:30px;
-}
-	#topwrap #top
-	{
-		color:#FFF;
-		max-width:1170px;
-		margin:0 auto;
-		line-height:30px;
+	padding-top:20px;
+	background:#2b4754;
+	position:fixed;
+	height:100%;
+	text-align:center;
+	@include span-columns(2);
+	@include drop-shadow(3);
+	
+	@include tabletandmobile {
+		@include span-columns(12);
+		position:static;
+		height:auto;
 	}
-		#topwrap #top .contacts
+	
+	h1
+	{
+		padding:0 20px 20px 20px;
+		margin-bottom:0;
+		border-bottom:1px solid darken($theme-blue, 5);
+		a
 		{
 			color:#EEE;
-		}
-		#topwrap #top nav
-		{
-			text-align:right;
-			height:30px;
-			line-height: 30px;
-		}
-			#topwrap #top nav ul
+			&:hover
 			{
-				margin:0;
-				padding:0;
+				color:#EEE;
+				text-decoration:none;
+				border-bottom:0;
 			}
-				#topwrap #top nav ul li
+		}
+	}
+	nav
+	{
+		ul
+		{
+			margin:0;
+			padding:0;
+			border-bottom:1px solid lighten($theme-blue, 5);
+			li
+			{
+				list-style-type:none;
+				a
 				{
-					list-style-type:none;
-					display:inline-block;
-					font-size:15px;
+					transition: background-color 0.5s ease;
+					background:none;
+					display:block;
+					padding:5px 20px;
+					border-bottom:1px solid darken($theme-blue, 5);
+					border-top:1px solid lighten($theme-blue, 5);
+					color:#EEE;
+					font-weight:400;
+					
+					&:hover
+					{
+						transition: background-color 0.5s ease;
+						background:darken($theme-blue, 5);
+					}
+					&.active
+					{
+						background:darken($theme-blue, 5);
+					}
 				}
-					#topwrap #top nav ul li:after
-					{
-						padding:0 15px;
-						content:"/";
-					}
-					#topwrap #top nav ul li:last-child:after
-					{
-						content:"";
-						padding:0;
-					}
-					#topwrap #top nav ul li a
-					{
-						color:#FFF;
-					}
-					#topwrap #top nav ul li a:hover
-					{
-						color:#CCC;
-						text-decoration:none;
-					}
-#mainwrap
-{
-	width:100%;
-	padding-bottom:75px;
+			}
+		}
+	}
+	.social
+	{
+		position:absolute;
+		bottom:0;
+	}
 }
-	#mainwrap #main
-	{
-		margin:0 auto;
-		max-width:1170px;
-		background:#FFF;
-		padding:20px;
-		min-height:500px;
-		padding-bottom:75px;
-	}
-	#mainwrap #main.home
-	{
-		margin-top:-150px;
-		position:relative;
-		z-index:99;
-	}
-
-#footerwrap
+.main
 {
-	width:100%;
-	background:#000;
-	min-height:300px;
-}
-	#footerwrap footer
+	padding-right:flex-gutter(12);
+	margin-bottom:100px;
+	@include span-columns(10);
+	@include omega(2n);
+	@include shift(2);
+	
+	article
 	{
-		margin:0 auto;
-		color:#FFF;
-		max-width:1170px;
+		padding-top:20px;
 	}
-
+}

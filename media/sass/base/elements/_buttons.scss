@@ -1,0 +1,47 @@
+.btn
+{
+	transition: background-color 0.5s ease;
+	margin-bottom:20px;
+	cursor:pointer;
+	border-radius:0;
+	border:0;
+	padding:5px 20px;
+	background:none;
+	font-weight:bold;
+	text-transform:uppercase;
+	height:36px;
+	min-width:88px;
+	
+	&.raised
+	{
+		transition: background-color 0.5s ease;
+		background:#EEE;
+		@include drop-shadow(0);
+		
+		&:hover
+		{
+			transition: background-color 0.5s ease;
+			background:#CCC;
+			@include drop-shadow(2);
+		}
+		&:active
+		{
+			@include drop-shadow(1);
+		}
+	}
+	
+	&:hover
+	{
+		transition: background-color 0.5s ease;
+		background:#DDD;
+	}
+	&:active
+	{
+		background:#CCC;
+	}
+	&:disabled
+	{
+		background:none;
+		color:#C7C7C7;
+	}
+}

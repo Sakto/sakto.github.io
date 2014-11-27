@@ -1,0 +1,23 @@
+{
+  "name": "Daniel on Github",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Sakto/sakto.github.io",
+  "authors": [
+    "Sakto <daniel@danwebs.dk>"
+  ],
+  "description": "Personal site and portfolio",
+  "main": "\"media/css/style.css\"",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {}
+}

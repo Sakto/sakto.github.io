@@ -1,35 +1,36 @@
-<section class="container" id="topwrap">
-	<div id="top">
-		<div class="pull-left contacts">
-			<a href="https://github.com/Sakto" title="My Github repo"><span class="fa fa-github"> </span></a>
-		</div>
-		<nav class="pull-right">
+<div class="row">
+	<aside class="sidebar">
+		<header>
+			<h1 class="logo"><a href="/" title="{{ site.title }}">{{ site.title }}</a></h1>
+		</header>
+		<nav>
 			<ul>
 				<li>
-					<a href="/contact/">Contact</a>
+					{% if page.url == '/about/' or page.url == '/about/webdevelopment/' %}
+						<a href="/about/" class="active">About</a>
+					{% else %}
+						<a href="/about/" class="">About</a>
+					{% endif %}
 				</li>
 				<li>
-					<a href="https://github.com/Sakto" title="My Github repo"><span class="fa fa-github"> </span></a>
-					<a href="https://twitter.com/paxsakto" title="My Twitter"><span class="fa fa-twitter"> </span></a>
+					{% if page.url == '/projects/' %}
+						<a href="/projects/" class="active">Projects</a>
+					{% else %}
+						<a href="/projects/" class="">Projects</a>
+					{% endif %}
+				</li>
+				<li>
+					{% if page.url == '/blog/' %}
+						<a href="/blog/" class="active">Blog</a>
+					{% else %}
+						<a href="/blog/" class="">Blog</a>
+					{% endif %}
 				</li>
 			</ul>
 		</nav>
-	</div>
-</section>
-
-<header id="header">
-	<h1 class="logo"><a href="/" title="{{ site.title }}">{{ site.title }}</a></h1>
-	<nav>
-		<ul>
-			<li>
-				<a href="/about/">About</a>
-			</li>
-			<li>
-				<a href="/projects/">Projects</a>
-			</li>
-			<li>
-				<a href="/blog/">Blog</a>
-			</li>
-		</ul>
-	</nav>
-</header>
+		<div class="social">
+			<a href="https://github.com/Sakto" title="Me on Github"><i class="fa fa-github"></i></a>
+		</div>
+	</aside>
+	<div class="main">
+		<article>
