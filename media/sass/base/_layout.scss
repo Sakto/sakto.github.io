@@ -24,6 +24,7 @@ body
 		position:static;
 		margin-top:0;
 		height:auto;
+		float:none;
 	}
 	
 	h1
@@ -86,15 +87,45 @@ body
 {
 	padding-bottom:100px;
 	background:#FFF;
-	margin:20px 20px 100px 20px;
+	margin:20px 0 100px 20px;
 	@include drop-shadow(2);
+	@include span-columns(10);
 	border:1px solid #CCC;
+	
+	@include tabletandmobile {
+		@include span-columns(12);
+		float:none;
+		width:auto;
+		margin-right:20px;
+	}
+	
+	@include mobile {
+		margin:0;
+		padding-bottom:0;
+	}
 	
 	article
 	{
-		padding-top:20px;
 		@include shift(2);
 		padding-right:flex-gutter(12);
-		padding-left:flex-gutter(12);
+		padding-left:flex-gutter(7);
+		
+		@include tabletandmobile {
+			padding:20px;
+			margin:0;
+		}
+	}
+}
+.rightbar
+{
+	@include span-columns(2);
+	margin-top:20px;
+	@include omega();
+	margin-left:-20px;
+	color:#999;
+	padding-top:20px;
+	
+	@include tabletandmobile {
+		display:none;
 	}
 }
