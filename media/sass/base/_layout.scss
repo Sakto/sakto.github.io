@@ -6,20 +6,23 @@ body
 {
 	@include row;
 	position:relative;
+	overflow:hidden;
 }
 .sidebar
 {
 	padding-top:20px;
 	background:#2b4754;
 	position:fixed;
+	left:40px;
 	height:100%;
 	text-align:center;
 	@include span-columns(2);
-	@include drop-shadow(3);
+	@include drop-shadow(2);
 	
 	@include tabletandmobile {
 		@include span-columns(12);
 		position:static;
+		margin-top:0;
 		height:auto;
 	}
 	
@@ -81,14 +84,17 @@ body
 }
 .main
 {
-	padding-right:flex-gutter(12);
-	margin-bottom:100px;
-	@include span-columns(10);
-	@include omega(2n);
-	@include shift(2);
+	padding-bottom:100px;
+	background:#FFF;
+	margin:20px 20px 100px 20px;
+	@include drop-shadow(2);
+	border:1px solid #CCC;
 	
 	article
 	{
 		padding-top:20px;
+		@include shift(2);
+		padding-right:flex-gutter(12);
+		padding-left:flex-gutter(12);
 	}
 }
