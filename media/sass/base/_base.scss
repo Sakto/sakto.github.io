@@ -5,12 +5,17 @@
 @import 'elements/buttons';
 @import "layout";
 
+html,body
+{
+	min-height:100%;
+}
 body
 {
 	background:#EBEBEB;
 	color:#434343;
 	font:1.2em/1.3 sans-serif;
 	font-family: 'RobotoDraft';
+	@include texture(180deg, #EEE, #EBEBEB, 21, 0);
 }
 h1,h2,h3,h4,h5,h6
 {
@@ -56,4 +61,10 @@ strong
 	color:#666;
 	margin-top:0;
 	margin-bottom:30px;
+}
+.row
+{
+	@include row;
+	position:relative;
+	overflow:hidden;
 }
