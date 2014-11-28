@@ -13,6 +13,13 @@
 					{% endif %}
 				</li>
 				<li>
+					{% if page.url == '/work/' %}
+						<a href="/work/" class="active">Work</a>
+					{% else %}
+						<a href="/work/" class="">Work</a>
+					{% endif %}
+				</li>
+				<li>
 					{% if page.url == '/projects/' %}
 						<a href="/projects/" class="active">Projects</a>
 					{% else %}
