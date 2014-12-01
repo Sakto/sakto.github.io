@@ -1,0 +1,61 @@
+.reference {
+  $reference-gutter: 1.4em;
+  $reference-image-padding: .7em;
+  $reference-image-width: 10em;
+  $reference-color: $base-font-color;
+  $reference-background: lighten($base-accent-color, 15);
+  $reference-detail-color: transparentize($reference-color, .5);
+  $reference-image-vert-alignment: top;
+
+  display: table;
+  width: 100%;
+  margin-bottom: $base-spacing;
+  padding-bottom: 1em;
+  border-bottom: 1px solid transparentize($reference-color, .9);
+
+  .reference-image,
+  .reference-content {
+    display: table-cell;
+    vertical-align: $reference-image-vert-alignment;
+  }
+
+  .reference-image {
+    padding-right: $reference-gutter;
+    
+    &.right
+	  {
+	      padding-right: 0;
+	      padding-left: $reference-gutter;
+	  }
+    
+    > img {
+      width: $reference-image-width;
+      height: auto;
+      border-radius: $base-border-radius;
+      display: block;
+      max-width: none;
+    }
+    
+  }
+
+  .reference-content {
+    width: 100%;
+
+    h2 {
+      font-size: 1.4em;
+      margin-bottom: .5em;
+      margin-top:0;
+    }
+
+    p {
+      margin-bottom: .5em;
+    }
+
+    p.reference-detail {
+      font-style: italic;
+      font-size: .9em;
+      color: $reference-detail-color;
+    }
+  }
+}
+
