@@ -1,14 +1,31 @@
 h1,h2,h3,h4,h5,h6
 {
 	color:$theme-blue;
-	font-family:georgia,times,Times New Roman,times-roman,georgia,serif;
-	font-style:italic;
-	margin-bottom:10px;
-	margin-top:20px;
+	font-family: 'Playfair Display', serif;
 }
+
 h2
 {
-	margin-bottom:20px;
-	padding-bottom:20px;
 	border-bottom:1px solid #CCC;
+	font-size:$h2-font-size;
+	line-height:$h2-line-height;
+	margin-top:$h2-margin-top;
+	margin-bottom:$h2-margin-bottom;
+	padding-bottom:$h2-margin-bottom;
+}
+h3
+{
+	font-size:$h3-font-size;
+	line-height:$h3-line-height;
+	margin-top:$h3-margin-top;
+	margin-bottom:$h3-margin-bottom;
+	font-style:italic;
+}
+h4
+{
+	font-size:$h4-font-size;
+	line-height:$h4-line-height;
+	margin-top:$h4-margin-top;
+	margin-bottom:$h4-margin-bottom;
+	font-style:italic;
 }

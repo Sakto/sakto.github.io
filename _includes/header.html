@@ -27,7 +27,7 @@
 					{% endif %}
 				</li>
 				<li>
-					{% if page.url == '/blog/' %}
+					{% if page.url == '/blog/' or page.date %}
 						<a href="/blog/" class="active">Blog</a>
 					{% else %}
 						<a href="/blog/" class="">Blog</a>
@@ -44,4 +44,4 @@
 		
 	</aside>
 	<div class="main">
-		<article>
+		<div class="content">

@@ -1,3 +1,37 @@
+$base-font-size: 1.1875em;
+$base-line-height: 1.421052632em;
+$measure: 760px;
+
+$h1-font-size: 4.368421053em;
+$h1-line: 0.325301205em;
+$h1-lines: 4;
+$h1-line-height: $h1-line * $h1-lines;
+$h1-margin-top: 2 * $h1-line;
+$h1-margin-bottom: 1 * $h1-line;
+
+$h2-font-size: 2.684210526em;
+$h2-line: 0.529411765em;
+$h2-lines: 2;
+$h2-line-height: $h2-line * $h2-lines;
+$h2-margin-top: 2 * $h2-line;
+$h2-margin-bottom: 1 * $h2-line;
+
+$h3-font-size: 1.631578947em;
+$h3-line: 0.870967742em;
+$h3-lines: 2;
+$h3-line-height: $h3-line * $h3-lines;
+$h3-margin-top: 1 * $h3-line;
+$h3-margin-bottom: 1 * $h3-line;
+
+$h4-font-size: 1em;
+$h4-line: 1.421052632em;
+$h4-lines: 1;
+$h4-line-height: $h4-line * $h4-lines;
+$h4-margin-top: 1 * $h4-line;
+$h4-margin-bottom: 1 * $h4-line;
+
+
+
 @font-face {
   font-family: 'RobotoDraft';
   font-style: normal;
