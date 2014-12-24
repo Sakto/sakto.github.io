@@ -165,7 +165,15 @@
 	padding-top:flex-gutter(12);
 	@include omega();
 	margin-left:-20px;
+	padding-right:30px;
 	color:#999;
+	
+	p
+	{
+		margin-bottom:20px;
+		padding-bottom:20px;
+		border-bottom:1px solid #CCC;
+	}
 	
 	@include tinydesktop {
 		display:none;
