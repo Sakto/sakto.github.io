@@ -140,6 +140,11 @@
 		@include shift(2);
 		padding:flex-gutter(12);
 		
+		a
+		{
+			font-weight:bold;
+		}
+		
 		@include tabletandmobile {
 			padding:20px;
 			margin:0;
