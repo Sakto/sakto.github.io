@@ -20,6 +20,7 @@ It's that time of the year again. Here's what I want to try and accomplish in 20
 
 - I want to complete the 30 day writing challenge on [Morning Pages](http://morningpages.net)
 - I want to launch a personal webdev project every month.
+- I want to establish a regular exercise schedule
 
 #### I want to see my son more.
 
