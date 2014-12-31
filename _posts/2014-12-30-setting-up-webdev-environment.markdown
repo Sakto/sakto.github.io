@@ -3,7 +3,7 @@ layout: post
 title:  "Setting up my webdev environment"
 date:   2014-12-30 10:00:00
 categories: webserver, apache, mysql
-comments: false
+comments: true
 ---
 
 I've had to reinstall [my OS](http://linuxmint.com) a few times (upgrading, trying out other distros, screwing up, etc.), and have been setting up

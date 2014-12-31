@@ -11,6 +11,10 @@ body
 	font-family: 'Open Sans', sans-serif;
 	@include texture(180deg, #EEE, #EBEBEB, 21, 0);
 }
+em
+{
+	font-style:italic;
+}
 ul
 {
 	@extend %default-ul
