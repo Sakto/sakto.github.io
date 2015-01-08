@@ -15,7 +15,7 @@ I've installed a few plugins that seems to be recommended:
 - [Vundle](https://github.com/gmarik/Vundle.vim), which is a plugin manager. I think. Not really 100% sure why I need it, but it came recommended from other plugins.
 - [DelimMate](https://github.com/Raimondi/delimitMate), which provides automatic closing of brackets, parenthesis, quotes, etc.
 - [Nerdtree](https://github.com/ivalkeen/nerdtree-execute), which adds a file hierarchy to the side of the editor which is an essential feature for me.
-- [Nerdtree-execute](https://github.com/ivalkeen/nerdtree-execute), which is a plugin for Nerdtree that makes it simple to do file/folder operations within Nerdtree just by hitting the "m" key.
+- [Nerdtree-execute](https://github.com/ivalkeen/nerdtree-execute), which is a plugin for Nerdtree that makes it simple to open/execute files from within the Nerdtree menu.
 - [Syntastic](https://github.com/scrooloose/syntastic), which is a syntax checker for a crapload of languages
 
 Secondly, I've found a couple [beginners](https://cloud.github.com/downloads/ahrencode/Miscellaneous/vim-cheatsheet.pdf) [cheatsheets](http://www.viemu.com/vi-vim-cheat-sheet.gif) which I hope will be useful, along with a site with a bunch of [Vim tutorials](http://vimcasts.org/categories/).
