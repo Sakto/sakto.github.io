@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Starting to learn Vim"
+date:   2015-01-08 19:00:00
+categories: vim editor learning new year
+comments: true
+---
+
+As part of my new years resolutions, I've set about finally learning [Vim](http://www.vim.org/), and I've already started! In fact, this post is written in Vim. And it's a pain in the ass.
+
+But I keep reading that it's completely worth it. So for the next 2 weeks, I'll be using nothing but Vim for my code editing, except for cases where I really really need to do something fast and don't have time to Google every command (which I do).
+
+I've installed a few plugins that seems to be recommended:
+
+- [Vundle](https://github.com/gmarik/Vundle.vim), which is a plugin manager. I think. Not really 100% sure why I need it, but it came recommended from other plugins.
+- [DelimMate](https://github.com/Raimondi/delimitMate), which provides automatic closing of brackets, parenthesis, quotes, etc.
+- [Nerdtree](https://github.com/ivalkeen/nerdtree-execute), which adds a file hierarchy to the side of the editor which is an essential feature for me.
+- [Nerdtree-execute](https://github.com/ivalkeen/nerdtree-execute), which is a plugin for Nerdtree that makes it simple to do file/folder operations within Nerdtree just by hitting the "m" key.
+- [Syntastic](https://github.com/scrooloose/syntastic), which is a syntax checker for a crapload of languages
+
+Secondly, I've found a couple [beginners](https://cloud.github.com/downloads/ahrencode/Miscellaneous/vim-cheatsheet.pdf) [cheatsheets](http://www.viemu.com/vi-vim-cheat-sheet.gif) which I hope will be useful, along with a site with a bunch of [Vim tutorials](http://vimcasts.org/categories/).
+
+So far, it's a pretty big change. Some things I _really_ had to get used to was Ctrl+backspace not working. It's Ctrl+w in insert mode in Vim. Copy paste doesn't work as in other editors, not sure if I can copy in insert mode yet, but pasting from something I haven't copied in normal mode is Ctrl+R \*.
+
+This will for sure be a challenge, but hopefully a fun (and not too frustrating experience), that'll eventually boost my productivity.
+
+Any resources you know about that could help speed up my learning process?
+
+_Here's to trying new things!_
+
