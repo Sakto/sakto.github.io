@@ -18,7 +18,7 @@ I've installed a few plugins that seems to be recommended:
 - [Nerdtree-execute](https://github.com/ivalkeen/nerdtree-execute), which is a plugin for Nerdtree that makes it simple to open/execute files from within the Nerdtree menu.
 - [Syntastic](https://github.com/scrooloose/syntastic), which is a syntax checker for a crapload of languages
 
-Secondly, I've found a couple [beginners](https://cloud.github.com/downloads/ahrencode/Miscellaneous/vim-cheatsheet.pdf) [cheatsheets](http://www.viemu.com/vi-vim-cheat-sheet.gif) which I hope will be useful, along with a site with a bunch of [Vim tutorials](http://vimcasts.org/categories/).
+Secondly, I've found a couple [beginners](https://cloud.github.com/downloads/ahrencode/Miscellaneous/vim-cheatsheet.pdf) [cheatsheets](http://www.viemu.com/vi-vim-cheat-sheet.gif) which I hope will be useful, along with a site with a bunch of [Vim tutorials](http://vimcasts.org/categories/), and of course subscribed to [/r/vim](http://www.reddit.com/r/vim).
 
 So far, it's a pretty big change. Some things I _really_ had to get used to was Ctrl+backspace not working. It's Ctrl+w in insert mode in Vim. Copy paste doesn't work as in other editors, not sure if I can copy in insert mode yet, but pasting from something I haven't copied in normal mode is Ctrl+R \*.
 
