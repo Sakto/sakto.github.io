@@ -17,6 +17,10 @@ Just a few notes to myself while learning [Vim](http://sakto.github.io/vim/edito
 
 - _Forgot what I was going to put here_
 
+## Windows
+
+- "Ctrl+w c" to close current window
+
 ## Misc
 
 - "." to repeat previous action (like paste, or insert some text or whatever)
